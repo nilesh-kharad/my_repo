@@ -1,0 +1,402 @@
+2026-05-13 16:53:51,022 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-13 16:53:51,024 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB STARTED  job_id=d115b0c2-7cd1-46c3-9e49-9805545f8f0a
+2026-05-13 16:53:51,025 [INFO] pipeline.enrich_runner: [EnrichPipeline] output_dir  = C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a
+2026-05-13 16:53:51,026 [INFO] pipeline.enrich_runner: [EnrichPipeline] user_id     = d115b0c2-7cd1-46c3-9e49-9805545f8f0a
+2026-05-13 16:53:51,026 [INFO] pipeline.enrich_runner: [EnrichPipeline] working_dir = C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a
+2026-05-13 16:53:51,028 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-05-13 16:53:51,028 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-13 16:53:51,127 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\.tmp_backup_d115b0c2-7cd1-46c3-9e49-9805545f8f0a
+2026-05-13 16:53:51,216 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 15 .dita files, 14 .ditamap files
+2026-05-13 16:53:51,225 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 15 DITA files
+2026-05-13 16:53:51,226 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-05-13 16:53:51,227 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 15
+2026-05-13 16:53:51,228 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] approval/approval.dita                             type=reference  shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,229 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] comments/comments.dita                             type=concept    shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,230 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] equipment_needed/equipment_needed.dita             type=concept    shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,230 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] general_maintenance_information/general_maintenance_information.dita type=task       shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,231 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] ppe_required/general.dita                          type=concept    shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,231 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] ppe_required/ppe_required.dita                     type=concept    shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,233 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] purpose_application/purpose_application.dita       type=concept    shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,238 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita type=task       shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,239 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] replacing_the_drive_pulley_with_a_clamping_bush.dita type=concept    shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,239 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] respirable_crystalline_silica/respirable_crystalline_silica.dita type=topic      shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,240 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] revision_history/revision_history.dita             type=reference  shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,240 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] safety_controls/safety_controls.dita               type=concept    shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,241 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] safety_hazards/safety_hazards.dita                 type=reference  shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,245 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita type=task       shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,246 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] torque_table/torque_table.dita                     type=reference  shortdesc=NO  prolog=NO 
+2026-05-13 16:53:51,246 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-05-13 16:53:51,247 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-05-13 16:53:51,297 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-05-13 16:53:51,314 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-05-13 16:53:51,331 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-05-13 16:53:51,339 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-05-13 16:53:51,342 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'replacing_the_drive_pulley_with_a_clamping_bush.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,345 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'approval/approval.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-05-13 16:53:51,346 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'approval/approval.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:51,347 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'approval/approval.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,351 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'comments/comments.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,353 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'equipment_needed/equipment_needed.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,356 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'general_maintenance_information/general_maintenance_information.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,360 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'ppe_required/general.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,362 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_body]: 'ppe_required/ppe_required.dita' — <conbody> exists but has no child elements or text content
+2026-05-13 16:53:51,362 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'ppe_required/ppe_required.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,367 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'purpose_application/purpose_application.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,390 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #1 (href='../media/image2.png') has no alt text — required for accessibility
+2026-05-13 16:53:51,393 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #2 (href='../media/image3.png') has no alt text — required for accessibility
+2026-05-13 16:53:51,393 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #3 (href='../media/image4.png') has no alt text — required for accessibility
+2026-05-13 16:53:51,394 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #4 (href='../media/image5.png') has no alt text — required for accessibility
+2026-05-13 16:53:51,395 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #5 (href='../media/image6.png') has no alt text — required for accessibility
+2026-05-13 16:53:51,395 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #6 (href='../media/image7.png') has no alt text — required for accessibility
+2026-05-13 16:53:51,396 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,400 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'respirable_crystalline_silica/respirable_crystalline_silica.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
+2026-05-13 16:53:51,406 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'respirable_crystalline_silica/respirable_crystalline_silica.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,408 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'revision_history/revision_history.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-05-13 16:53:51,409 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'revision_history/revision_history.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:51,410 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'revision_history/revision_history.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,413 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'safety_controls/safety_controls.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,416 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'safety_hazards/safety_hazards.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-05-13 16:53:51,416 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'safety_hazards/safety_hazards.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:51,420 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'safety_hazards/safety_hazards.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,422 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,425 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'torque_table/torque_table.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-05-13 16:53:51,430 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_col_mismatch]: 'torque_table/torque_table.dita' — table 1 row has 3 entries but cols=4
+2026-05-13 16:53:51,430 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_col_mismatch]: 'torque_table/torque_table.dita' — table 1 row has 2 entries but cols=4
+2026-05-13 16:53:51,431 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'torque_table/torque_table.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:51,432 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'torque_table/torque_table.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:51,444 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=33 | dita_files=15, broken_xml=0, empty=1, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-05-13 16:53:51,448 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=33 | broken_xml=0, empty=1, broken_refs=0, orphans=0
+2026-05-13 16:53:51,448 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-05-13 16:53:51,460 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: ppe_required/ppe_required.dita — expanded self-closing <conbody/> to explicit open/close tags
+2026-05-13 16:53:51,465 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 1 fix(es) applied, 0 write failure(s)
+2026-05-13 16:53:51,470 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=1, write_failures=0
+2026-05-13 16:53:51,471 [INFO] pipeline.enrich_runner: [EnrichPipeline] Marked 1 empty topic(s) to skip enrichment
+2026-05-13 16:53:52,207 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-05-13 16:53:52,226 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 15 files found, stem='approval_map'
+2026-05-13 16:53:52,227 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\approval_map.ditamap
+2026-05-13 16:53:52,228 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 15 files
+2026-05-13 16:53:52,690 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:52,691 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-05-13 16:53:52,693 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: 'troubleshooting guide'
+2026-05-13 16:53:52,694 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'approval_map', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'troubleshooting guide', 'document_keywords': ['troubleshooting guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-05-13 16:53:52,695 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'approval_map' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-05-13 16:53:52,696 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='troubleshooting guide', method=heuristic, confidence=0.00
+2026-05-13 16:53:52,699 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: SBS-MR-037H_report.txt
+2026-05-13 16:53:52,702 [INFO] utils.core_log_parser: [CoreLogParser] Parsed core report 'SBS-MR-037H_report.txt' — 29 topics, 0 errors
+2026-05-13 16:53:52,706 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: SBS-MR-037H_report.txt
+2026-05-13 16:53:52,709 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Backend Report (core _report.txt) ──────────────
+2026-05-13 16:53:52,709 [INFO] pipeline.enrich_runner: [BackendReport] [Core Engine] total=29, passed=29, failed=0, root_map=approval_map.ditamap, images=7
+2026-05-13 16:53:52,710 [INFO] pipeline.enrich_runner: [BackendReport] [Core Files]
+2026-05-13 16:53:52,712 [INFO] pipeline.enrich_runner: [BackendReport]   approval/approval.dita: type=reference, status=PASS
+2026-05-13 16:53:52,714 [INFO] pipeline.enrich_runner: [BackendReport]   comments/comments.dita: type=concept, status=PASS
+2026-05-13 16:53:52,714 [INFO] pipeline.enrich_runner: [BackendReport]   equipment_needed/equipment_needed.dita: type=concept, status=PASS
+2026-05-13 16:53:52,715 [INFO] pipeline.enrich_runner: [BackendReport]   general_maintenance_information/general_maintenance_information.dita: type=task, status=PASS
+2026-05-13 16:53:52,716 [INFO] pipeline.enrich_runner: [BackendReport]   ppe_required/general.dita: type=concept, status=PASS
+2026-05-13 16:53:52,716 [INFO] pipeline.enrich_runner: [BackendReport]   ppe_required/ppe_required.dita: type=concept, status=PASS
+2026-05-13 16:53:52,720 [INFO] pipeline.enrich_runner: [BackendReport]   purpose_application/purpose_application.dita: type=concept, status=PASS
+2026-05-13 16:53:52,722 [INFO] pipeline.enrich_runner: [BackendReport]   replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita: type=task, status=PASS
+2026-05-13 16:53:52,723 [INFO] pipeline.enrich_runner: [BackendReport]   replacing_the_drive_pulley_with_a_clamping_bush.dita: type=concept, status=PASS
+2026-05-13 16:53:52,724 [INFO] pipeline.enrich_runner: [BackendReport]   respirable_crystalline_silica/respirable_crystalline_silica.dita: type=topic, status=PASS
+2026-05-13 16:53:52,724 [INFO] pipeline.enrich_runner: [BackendReport]   revision_history/revision_history.dita: type=reference, status=PASS
+2026-05-13 16:53:52,725 [INFO] pipeline.enrich_runner: [BackendReport]   safety_controls/safety_controls.dita: type=concept, status=PASS
+2026-05-13 16:53:52,726 [INFO] pipeline.enrich_runner: [BackendReport]   safety_hazards/safety_hazards.dita: type=reference, status=PASS
+2026-05-13 16:53:52,726 [INFO] pipeline.enrich_runner: [BackendReport]   safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita: type=task, status=PASS
+2026-05-13 16:53:52,730 [INFO] pipeline.enrich_runner: [BackendReport]   torque_table/torque_table.dita: type=reference, status=PASS
+2026-05-13 16:53:52,731 [INFO] pipeline.enrich_runner: [BackendReport] [Core DTD] all files passed
+2026-05-13 16:53:52,731 [INFO] pipeline.enrich_runner: [BackendReport] [Core Errors] none
+2026-05-13 16:53:52,732 [INFO] pipeline.enrich_runner: [BackendReport] [Core Headings] Approval(1) | Comments(1) | Equipment Needed(1) | General Maintenance Information(1) | Ppe Required(2) | Purpose Application(1) | Replacing The Drive Pulley With A Clamping Bush(1) | Respirable Crystalline Silica(1) | Revision History(1) | Safety Controls(1) | Safety Hazards(1) | Safety Information Before Performing Maintenance(1) | Torque Table(1)
+2026-05-13 16:53:52,733 [INFO] pipeline.enrich_runner: [BackendReport] DTD validation: all files passed
+2026-05-13 16:53:52,733 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-05-13 16:53:52,734 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3: Classify + Shortdesc + Keywords ──
+2026-05-13 16:53:52,883 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Approval' (file=approval/approval.dita)
+2026-05-13 16:53:52,884 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:52,885 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Approval'
+2026-05-13 16:53:52,892 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: reference → concept in approval.dita
+2026-05-13 16:53:52,893 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:52,896 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into approval.dita with body preserved
+2026-05-13 16:53:52,904 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:52,914 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into approval.dita with body preserved
+2026-05-13 16:53:52,920 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Approval' → type=concept, confidence=low
+2026-05-13 16:53:52,933 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Comments' (file=comments/comments.dita)
+2026-05-13 16:53:52,934 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:52,935 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Comments'
+2026-05-13 16:53:52,941 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:52,948 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into comments.dita with body preserved
+2026-05-13 16:53:52,960 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:52,964 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into comments.dita with body preserved
+2026-05-13 16:53:52,971 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Comments' → type=concept, confidence=low
+2026-05-13 16:53:52,978 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Equipment Needed' (file=equipment_needed/equipment_needed.dita)
+2026-05-13 16:53:52,981 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:52,982 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Equipment Needed'
+2026-05-13 16:53:52,990 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:52,992 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into equipment_needed.dita with body preserved
+2026-05-13 16:53:53,000 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,003 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into equipment_needed.dita with body preserved
+2026-05-13 16:53:53,005 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Equipment Needed' → type=concept, confidence=low
+2026-05-13 16:53:53,014 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'General Maintenance Information' (file=general_maintenance_information/general_maintenance_information.dita)
+2026-05-13 16:53:53,015 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,016 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'General Maintenance Information'
+2026-05-13 16:53:53,028 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: task → concept in general_maintenance_information.dita
+2026-05-13 16:53:53,030 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,032 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into general_maintenance_information.dita with body preserved
+2026-05-13 16:53:53,048 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,052 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into general_maintenance_information.dita with body preserved
+2026-05-13 16:53:53,056 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'General Maintenance Information' → type=concept, confidence=low
+2026-05-13 16:53:53,061 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'General' (file=ppe_required/general.dita)
+2026-05-13 16:53:53,066 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,067 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'General'
+2026-05-13 16:53:53,078 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: concept → topic in general.dita
+2026-05-13 16:53:53,084 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,090 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into general.dita with body preserved
+2026-05-13 16:53:53,097 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,100 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into general.dita with body preserved
+2026-05-13 16:53:53,104 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'General' → type=topic, confidence=low
+2026-05-13 16:53:53,105 [INFO] pipeline.enrich_runner: [EnrichPipeline] SKIPPED 'ppe_required/ppe_required.dita' — empty topic
+2026-05-13 16:53:53,111 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Purpose/Application' (file=purpose_application/purpose_application.dita)
+2026-05-13 16:53:53,115 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,117 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Purpose/Application'
+2026-05-13 16:53:53,126 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: concept → topic in purpose_application.dita
+2026-05-13 16:53:53,127 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,129 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into purpose_application.dita with body preserved
+2026-05-13 16:53:53,134 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,135 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into purpose_application.dita with body preserved
+2026-05-13 16:53:53,139 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Purpose/Application' → type=topic, confidence=low
+2026-05-13 16:53:53,154 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Replacing the Drive Pulley with a Clamping Bush' (file=replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita)
+2026-05-13 16:53:53,157 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,158 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Replacing the Drive Pulley with a Clamping Bush'
+2026-05-13 16:53:53,166 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,171 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into replacing_the_drive_pulley_with_a_clamping_bush_2.dita with body preserved
+2026-05-13 16:53:53,180 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,182 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into replacing_the_drive_pulley_with_a_clamping_bush_2.dita with body preserved
+2026-05-13 16:53:53,186 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Replacing the Drive Pulley with a Clamping Bush' → type=task, confidence=low
+2026-05-13 16:53:53,192 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Replacing the Drive Pulley with a Clamping Bush' (file=replacing_the_drive_pulley_with_a_clamping_bush.dita)
+2026-05-13 16:53:53,193 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,194 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Replacing the Drive Pulley with a Clamping Bush'
+2026-05-13 16:53:53,205 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: concept → topic in replacing_the_drive_pulley_with_a_clamping_bush.dita
+2026-05-13 16:53:53,206 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,208 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into replacing_the_drive_pulley_with_a_clamping_bush.dita with body preserved
+2026-05-13 16:53:53,217 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,224 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into replacing_the_drive_pulley_with_a_clamping_bush.dita with body preserved
+2026-05-13 16:53:53,228 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Replacing the Drive Pulley with a Clamping Bush' → type=topic, confidence=low
+2026-05-13 16:53:53,234 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Respirable Crystalline Silica' (file=respirable_crystalline_silica/respirable_crystalline_silica.dita)
+2026-05-13 16:53:53,238 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,238 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Respirable Crystalline Silica'
+2026-05-13 16:53:53,246 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,248 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into respirable_crystalline_silica.dita with body preserved
+2026-05-13 16:53:53,256 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,259 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into respirable_crystalline_silica.dita with body preserved
+2026-05-13 16:53:53,264 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Respirable Crystalline Silica' → type=topic, confidence=low
+2026-05-13 16:53:53,272 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Revision History' (file=revision_history/revision_history.dita)
+2026-05-13 16:53:53,274 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,275 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Revision History'
+2026-05-13 16:53:53,283 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: reference → topic in revision_history.dita
+2026-05-13 16:53:53,287 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,289 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into revision_history.dita with body preserved
+2026-05-13 16:53:53,301 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,305 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into revision_history.dita with body preserved
+2026-05-13 16:53:53,309 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Revision History' → type=topic, confidence=low
+2026-05-13 16:53:53,315 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Safety Controls' (file=safety_controls/safety_controls.dita)
+2026-05-13 16:53:53,317 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,317 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Safety Controls'
+2026-05-13 16:53:53,328 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,332 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into safety_controls.dita with body preserved
+2026-05-13 16:53:53,343 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,348 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into safety_controls.dita with body preserved
+2026-05-13 16:53:53,353 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Safety Controls' → type=concept, confidence=low
+2026-05-13 16:53:53,359 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Safety Hazards' (file=safety_hazards/safety_hazards.dita)
+2026-05-13 16:53:53,360 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,361 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Safety Hazards'
+2026-05-13 16:53:53,369 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: reference → topic in safety_hazards.dita
+2026-05-13 16:53:53,371 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,374 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into safety_hazards.dita with body preserved
+2026-05-13 16:53:53,382 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,385 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into safety_hazards.dita with body preserved
+2026-05-13 16:53:53,388 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Safety Hazards' → type=topic, confidence=low
+2026-05-13 16:53:53,394 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Safety Information Before Performing Maintenance' (file=safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita)
+2026-05-13 16:53:53,396 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,397 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Safety Information Before Performing Maintenance'
+2026-05-13 16:53:53,409 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: task → concept in safety_information_before_performing_maintenance.dita
+2026-05-13 16:53:53,410 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,414 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into safety_information_before_performing_maintenance.dita with body preserved
+2026-05-13 16:53:53,424 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,428 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into safety_information_before_performing_maintenance.dita with body preserved
+2026-05-13 16:53:53,433 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Safety Information Before Performing Maintenance' → type=concept, confidence=low
+2026-05-13 16:53:53,443 [INFO] layers.layer123_enrichment: [Layer123] Enriching topic: 'Torque Table' (file=torque_table/torque_table.dita)
+2026-05-13 16:53:53,444 [ERROR] layers.layer123_enrichment: [Layer123] Unexpected error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,446 [WARNING] layers.layer123_enrichment: [Layer123] Using heuristic fallback for 'Torque Table'
+2026-05-13 16:53:53,456 [INFO] layers.layer1_topic_classifier: [Layer1] Topic type fixed: reference → concept in torque_table.dita
+2026-05-13 16:53:53,458 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,461 [INFO] layers.layer2_shortdesc_generator: [Layer2] shortdesc injected into torque_table.dita with body preserved
+2026-05-13 16:53:53,467 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-13 16:53:53,469 [INFO] layers.layer3_keywords_indexterms: [Layer3] prolog injected into torque_table.dita with body preserved
+2026-05-13 16:53:53,471 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Torque Table' → type=concept, confidence=low
+2026-05-13 16:53:53,831 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3 complete — 15 topics processed
+2026-05-13 16:53:53,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 9 of 15 topics had type changed by AI
+2026-05-13 16:53:53,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] approval/approval.dita                                       reference → concept (confidence=low)
+2026-05-13 16:53:53,833 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] general_maintenance_information/general_maintenance_information.dita task → concept (confidence=low)
+2026-05-13 16:53:53,833 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] ppe_required/general.dita                                    concept → topic (confidence=low)
+2026-05-13 16:53:53,834 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] purpose_application/purpose_application.dita                 concept → topic (confidence=low)
+2026-05-13 16:53:53,834 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] replacing_the_drive_pulley_with_a_clamping_bush.dita         concept → topic (confidence=low)
+2026-05-13 16:53:53,835 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] revision_history/revision_history.dita                       reference → topic (confidence=low)
+2026-05-13 16:53:53,835 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] safety_hazards/safety_hazards.dita                           reference → topic (confidence=low)
+2026-05-13 16:53:53,836 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita task → concept (confidence=low)
+2026-05-13 16:53:53,836 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] torque_table/torque_table.dita                               reference → concept (confidence=low)
+2026-05-13 16:53:53,845 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-05-13 16:53:53,846 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  approval/approval.dita                             type=concept    shortdesc='Representatives of the MAGMA Approval Team'
+2026-05-13 16:53:53,846 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Approval', 'Manager', 'Representatives', 'MAGMA', 'Team', 'Person'] | indexterms=['Approval', 'Manager', 'Representatives']
+2026-05-13 16:53:53,847 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  comments/comments.dita                             type=concept    shortdesc='Read a section thoroughly before starting the work.'
+2026-05-13 16:53:53,847 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Comments', 'Cullet', 'Crusher', 'Read', 'section', 'thoroughly'] | indexterms=['Comments', 'Cullet', 'Crusher']
+2026-05-13 16:53:53,847 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  equipment_needed/equipment_needed.dita             type=concept    shortdesc='Cullet crusher control screen, and tools as needed to perform work.'
+2026-05-13 16:53:53,848 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Equipment', 'Needed', 'Cullet', 'crusher', 'control', 'screen'] | indexterms=['Equipment', 'Needed', 'Cullet']
+2026-05-13 16:53:53,848 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  general_maintenance_information/general_maintenance_information.dita type=concept    shortdesc='Maintain and clean the cullet crusher according to the frequencies sho…'
+2026-05-13 16:53:53,849 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['parts', 'cullet', 'crusher', 'safety', 'connections', 'screws'] | indexterms=['parts', 'cullet', 'crusher']
+2026-05-13 16:53:53,849 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  ppe_required/general.dita                          type=topic      shortdesc='Bump cap, safety glasses, hearing protection, long sleeves, safety toe…'
+2026-05-13 16:53:53,850 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['General', 'safety', 'Bump', 'glasses', 'hearing', 'protection'] | indexterms=['General', 'safety', 'Bump']
+2026-05-13 16:53:53,851 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  ppe_required/ppe_required.dita                     SKIPPED (empty topic)
+2026-05-13 16:53:53,851 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  purpose_application/purpose_application.dita       type=topic      shortdesc='Defines the procedures for replacing the drive pulley with a clamping …'
+2026-05-13 16:53:53,852 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Purpose', 'Application', 'Defines', 'procedures', 'replacing', 'drive'] | indexterms=['Purpose', 'Application', 'Defines']
+2026-05-13 16:53:53,853 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita type=task       shortdesc='In addition to installing the drive pulley with a feather key connecti…'
+2026-05-13 16:53:53,854 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['clamping', 'belts', 'pulley', 'screws', 'drive', 'holes'] | indexterms=['clamping', 'belts', 'pulley']
+2026-05-13 16:53:53,854 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  replacing_the_drive_pulley_with_a_clamping_bush.dita type=topic      shortdesc='2023-01-10'
+2026-05-13 16:53:53,855 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Replacing', 'Drive', 'Pulley', 'Clamping', 'Bush'] | indexterms=['Replacing', 'Drive', 'Pulley']
+2026-05-13 16:53:53,856 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  respirable_crystalline_silica/respirable_crystalline_silica.dita type=topic      shortdesc='Crystalline silica has been classified as a human lung carcinogen. Add…'
+2026-05-13 16:53:53,856 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Crystalline', 'Respirable', 'Silica', 'silica', 'classified', 'human'] | indexterms=['Crystalline', 'Respirable', 'Silica']
+2026-05-13 16:53:53,857 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  revision_history/revision_history.dita             type=topic      shortdesc='2023-01-10 Approved by Johnathan Fisher, SBS Manager – R&amp;D Origina…'
+2026-05-13 16:53:53,859 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Revision', 'History', 'Approved', 'Johnathan', 'Fisher', 'Manager'] | indexterms=['Revision', 'History', 'Approved']
+2026-05-13 16:53:53,860 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  safety_controls/safety_controls.dita               type=concept    shortdesc='Lockout-tagout-verify the metering conveyor scale before performing wo…'
+2026-05-13 16:53:53,860 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Safety', 'Controls', 'before', 'performing', 'chemicals', 'measures'] | indexterms=['Safety', 'Controls', 'before']
+2026-05-13 16:53:53,861 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  safety_hazards/safety_hazards.dita                 type=topic      shortdesc='Overview of Safety Hazards.'
+2026-05-13 16:53:53,861 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Safety', 'Hazards'] | indexterms=['Safety', 'Hazards']
+2026-05-13 16:53:53,862 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita type=concept    shortdesc='Danger due to electric shocks: Contact with live parts will result in …'
+2026-05-13 16:53:53,863 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['parts', 'cullet', 'crusher', 'equipment', 'materials', 'Before'] | indexterms=['parts', 'cullet', 'crusher']
+2026-05-13 16:53:53,863 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  torque_table/torque_table.dita                     type=concept    shortdesc='Use this table to torque the screws.'
+2026-05-13 16:53:53,864 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Torque', 'Table', 'table', 'torque', 'screws', 'Clamping'] | indexterms=['Torque', 'Table', 'table']
+2026-05-13 16:53:53,864 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Quality Review ──
+2026-05-13 16:53:53,883 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'approval/approval.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\approval\approval.dita
+2026-05-13 16:53:53,885 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'comments/comments.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\comments\comments.dita
+2026-05-13 16:53:53,886 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'equipment_needed/equipment_needed.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\equipment_needed\equipment_needed.dita
+2026-05-13 16:53:53,887 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'general_maintenance_information/general_maintenance_information.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\general_maintenance_information\general_maintenance_information.dita
+2026-05-13 16:53:53,888 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'ppe_required/general.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ppe_required\general.dita
+2026-05-13 16:53:53,888 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'ppe_required/ppe_required.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ppe_required\ppe_required.dita
+2026-05-13 16:53:53,890 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'purpose_application/purpose_application.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\purpose_application\purpose_application.dita
+2026-05-13 16:53:53,892 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\replacing_the_drive_pulley_with_a_clamping_bush\replacing_the_drive_pulley_with_a_clamping_bush_2.dita
+2026-05-13 16:53:53,896 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'replacing_the_drive_pulley_with_a_clamping_bush.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\replacing_the_drive_pulley_with_a_clamping_bush.dita
+2026-05-13 16:53:53,900 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'respirable_crystalline_silica/respirable_crystalline_silica.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\respirable_crystalline_silica\respirable_crystalline_silica.dita
+2026-05-13 16:53:53,903 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'revision_history/revision_history.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\revision_history\revision_history.dita
+2026-05-13 16:53:53,904 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'safety_controls/safety_controls.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\safety_controls\safety_controls.dita
+2026-05-13 16:53:53,905 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'safety_hazards/safety_hazards.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\safety_hazards\safety_hazards.dita
+2026-05-13 16:53:53,909 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\safety_information_before_performing_maintenance\safety_information_before_performing_maintenance.dita
+2026-05-13 16:53:53,911 [INFO] layers.layer4_quality_autofix: [Layer4] Found 'torque_table/torque_table.dita' at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\torque_table\torque_table.dita
+2026-05-13 16:53:53,911 [INFO] layers.layer4_quality_autofix: [Layer4] Reviewing 15/15 topics (skipped 0 high-confidence) via Haiku
+2026-05-13 16:53:53,912 [WARNING] layers.layer4_quality_autofix: [Layer4] Review error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-05-13 16:53:53,912 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 review — quality=fair, accuracy=0%
+2026-05-13 16:53:53,913 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Autofix ──
+2026-05-13 16:53:53,913 [INFO] layers.layer4_quality_autofix: [Layer4] Autofix — 0 XML broken topics to fix
+2026-05-13 16:53:53,923 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 autofix — fixed=0, flagged=0, failed=0
+2026-05-13 16:53:53,924 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Final Validation ──
+2026-05-13 16:53:53,924 [INFO] layers.layer5_final_validation: [Layer5] ── START ── Structural validation (library-based, no AI)
+2026-05-13 16:53:53,929 [INFO] layers.layer5_final_validation: [Layer5] approval/approval.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,933 [INFO] layers.layer5_final_validation: [Layer5] comments/comments.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,938 [INFO] layers.layer5_final_validation: [Layer5] equipment_needed/equipment_needed.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,944 [INFO] layers.layer5_final_validation: [Layer5] general_maintenance_information/general_maintenance_information.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,948 [INFO] layers.layer5_final_validation: [Layer5] ppe_required/general.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,955 [INFO] layers.layer5_final_validation: [Layer5] ppe_required/ppe_required.dita — 2 issue(s): ['Empty body: <conbody> has no content or child elements', 'Missing shortdesc element']
+2026-05-13 16:53:53,962 [INFO] layers.layer5_final_validation: [Layer5] purpose_application/purpose_application.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,972 [INFO] layers.layer5_final_validation: [Layer5] replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,978 [INFO] layers.layer5_final_validation: [Layer5] replacing_the_drive_pulley_with_a_clamping_bush.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,983 [INFO] layers.layer5_final_validation: [Layer5] respirable_crystalline_silica/respirable_crystalline_silica.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,988 [INFO] layers.layer5_final_validation: [Layer5] revision_history/revision_history.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,993 [INFO] layers.layer5_final_validation: [Layer5] safety_controls/safety_controls.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:53,999 [INFO] layers.layer5_final_validation: [Layer5] safety_hazards/safety_hazards.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:54,008 [INFO] layers.layer5_final_validation: [Layer5] safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:54,015 [INFO] layers.layer5_final_validation: [Layer5] torque_table/torque_table.dita — 1 issue(s): ['<prodname> is present but empty']
+2026-05-13 16:53:54,015 [INFO] layers.layer5_final_validation: [Layer5] ── DONE ── validation_passed=True, accuracy=100%, critical=0, errors=0, warnings=16 (no AI used)
+2026-05-13 16:53:54,016 [INFO] layers.layer5_final_validation: [Layer5] ── Running DTD schema validation ──
+2026-05-13 16:53:54,024 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    approval.dita
+2026-05-13 16:53:54,026 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    comments.dita
+2026-05-13 16:53:54,027 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    equipment_needed.dita
+2026-05-13 16:53:54,028 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    general_maintenance_information.dita
+2026-05-13 16:53:54,030 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    general.dita
+2026-05-13 16:53:54,033 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    ppe_required.dita
+2026-05-13 16:53:54,035 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    purpose_application.dita
+2026-05-13 16:53:54,037 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS replacing_the_drive_pulley_with_a_clamping_bush_2.dita — 6 issue(s)
+2026-05-13 16:53:54,038 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    replacing_the_drive_pulley_with_a_clamping_bush.dita
+2026-05-13 16:53:54,041 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS respirable_crystalline_silica.dita — 1 issue(s)
+2026-05-13 16:53:54,042 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    revision_history.dita
+2026-05-13 16:53:54,044 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    safety_controls.dita
+2026-05-13 16:53:54,052 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    safety_hazards.dita
+2026-05-13 16:53:54,053 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    safety_information_before_performing_maintenance.dita
+2026-05-13 16:53:54,055 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    torque_table.dita
+2026-05-13 16:53:54,056 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=15/15
+2026-05-13 16:53:54,057 [INFO] layers.layer5_final_validation: [Layer5] DTD schema: passed=True, valid=15/15
+2026-05-13 16:53:54,058 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 — passed=True, accuracy=100%
+2026-05-13 16:53:54,060 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-05-13 16:53:54,060 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-05-13 16:53:54,123 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-05-13 16:53:54,138 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-05-13 16:53:54,159 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-05-13 16:53:54,165 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-05-13 16:53:54,171 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'approval/approval.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:54,181 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_body]: 'ppe_required/ppe_required.dita' — <conbody> exists but has no child elements or text content
+2026-05-13 16:53:54,181 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'ppe_required/ppe_required.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-13 16:53:54,190 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #1 (href='../media/image2.png') has no alt text — required for accessibility
+2026-05-13 16:53:54,190 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #2 (href='../media/image3.png') has no alt text — required for accessibility
+2026-05-13 16:53:54,191 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #3 (href='../media/image4.png') has no alt text — required for accessibility
+2026-05-13 16:53:54,192 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #4 (href='../media/image5.png') has no alt text — required for accessibility
+2026-05-13 16:53:54,193 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #5 (href='../media/image6.png') has no alt text — required for accessibility
+2026-05-13 16:53:54,193 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita' — <image> #6 (href='../media/image7.png') has no alt text — required for accessibility
+2026-05-13 16:53:54,199 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'respirable_crystalline_silica/respirable_crystalline_silica.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
+2026-05-13 16:53:54,202 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'revision_history/revision_history.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:54,206 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'safety_hazards/safety_hazards.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:54,210 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_col_mismatch]: 'torque_table/torque_table.dita' — table 1 row has 3 entries but cols=4
+2026-05-13 16:53:54,211 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_col_mismatch]: 'torque_table/torque_table.dita' — table 1 row has 2 entries but cols=4
+2026-05-13 16:53:54,211 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'torque_table/torque_table.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-13 16:53:54,221 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=15 | dita_files=15, broken_xml=0, empty=1, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-05-13 16:53:54,222 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=15
+2026-05-13 16:53:54,223 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-05-13 16:53:54,238 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 2 issues in 15 files (CRITICAL=0, WARNING=2)
+2026-05-13 16:53:54,239 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=2 (checks: shortdesc, keywords, indexterms)
+2026-05-13 16:53:54,240 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=0, fixed_by_ai=18, remaining=15, ai_obligations_missed=1, new_by_ai=0
+2026-05-13 16:53:54,243 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ai_reports\_agent_report.json
+2026-05-13 16:53:54,244 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Suggestion Agent ──
+2026-05-13 16:53:55,201 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] ── Suggestion Agent Started ──
+2026-05-13 16:53:55,203 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Collected 26 issues total (before dedup)
+2026-05-13 16:53:55,204 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] 24 unique issues after dedup
+2026-05-13 16:53:55,539 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='table_missing_title' file='approval/approval.dita'
+2026-05-13 16:53:55,541 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='empty_body' file='ppe_required/ppe_required.dita'
+2026-05-13 16:53:55,542 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_shortdesc' file='ppe_required/ppe_required.dita'
+2026-05-13 16:53:55,543 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='image_missing_alt' file='replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita'
+2026-05-13 16:53:55,544 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='image_missing_alt' file='respirable_crystalline_silica/respirable_crystalline_silica.dita'
+2026-05-13 16:53:55,546 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='table_missing_title' file='revision_history/revision_history.dita'
+2026-05-13 16:53:55,547 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='table_missing_title' file='safety_hazards/safety_hazards.dita'
+2026-05-13 16:53:55,549 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='table_col_mismatch' file='torque_table/torque_table.dita'
+2026-05-13 16:53:55,553 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='table_missing_title' file='torque_table/torque_table.dita'
+2026-05-13 16:53:55,554 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prolog' file='ppe_required/ppe_required.dita'
+2026-05-13 16:53:55,554 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='approval/approval.dita'
+2026-05-13 16:53:55,556 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='comments/comments.dita'
+2026-05-13 16:53:55,557 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='equipment_needed/equipment_needed.dita'
+2026-05-13 16:53:55,561 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='general_maintenance_information/general_maintenance_information.dita'
+2026-05-13 16:53:55,562 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='ppe_required/general.dita'
+2026-05-13 16:53:55,563 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='purpose_application/purpose_application.dita'
+2026-05-13 16:53:55,564 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='replacing_the_drive_pulley_with_a_clamping_bush/replacing_the_drive_pulley_with_a_clamping_bush_2.dita'
+2026-05-13 16:53:55,566 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='replacing_the_drive_pulley_with_a_clamping_bush.dita'
+2026-05-13 16:53:55,573 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='respirable_crystalline_silica/respirable_crystalline_silica.dita'
+2026-05-13 16:53:55,575 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='revision_history/revision_history.dita'
+2026-05-13 16:53:55,579 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='safety_controls/safety_controls.dita'
+2026-05-13 16:53:55,583 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='safety_hazards/safety_hazards.dita'
+2026-05-13 16:53:55,585 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='safety_information_before_performing_maintenance/safety_information_before_performing_maintenance.dita'
+2026-05-13 16:53:55,586 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Template suggestion (no API): category='missing_prodname' file='torque_table/torque_table.dita'
+2026-05-13 16:53:55,702 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Generated 24 suggestions
+2026-05-13 16:53:55,705 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] Saved suggestions.json (24 items)
+2026-05-13 16:53:55,705 [INFO] layers.layer6_fix_agent: [Layer6/Suggest] ── Suggestion Agent Done ──
+2026-05-13 16:53:55,706 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — suggestions_generated=24
+2026-05-13 16:53:55,730 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 2, 'ul': 21, 'table': 4, 'image': 7, 'crosslink': 0, 'hyperlink': 0, 'concept': 8, 'task': 1, 'reference': 0, 'topic': 6}
+2026-05-13 16:53:55,736 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ai_reports\_agent_report.json
+2026-05-13 16:53:55,740 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ai_reports\pre_enrichment.json
+2026-05-13 16:53:55,745 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ai_reports\post_enrichment.json
+2026-05-13 16:53:55,746 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-13 16:53:55,747 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB COMPLETED  job_id=d115b0c2-7cd1-46c3-9e49-9805545f8f0a
+2026-05-13 16:53:55,747 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ai_logs\ai_enrichment.log
+2026-05-13 16:53:55,748 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-DOCX\output\d115b0c2-7cd1-46c3-9e49-9805545f8f0a\ai_reports
+2026-05-13 16:53:55,748 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-13 16:53:55,996 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
